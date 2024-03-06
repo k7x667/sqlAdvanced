@@ -1,2 +1,5 @@
-# sqlAdvanced
-Learn SQL Advanced features.
+# SQL Advanced Courses
+
+### TRIGGER
+
+#### [EXO 1](./TRIGGER/exo_one.sql)
