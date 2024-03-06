@@ -1,3 +1,6 @@
+Créer un déclencheur qui enregistre dans une table de journalisation chaque fois qu'un produit est modifié (par exemple, changement de prix ou de stock).
+
+```sql
 CREATE TABLE JournalProduits (
   id_produit INT NOT NULL,
   type_modification VARCHAR(255) NOT NULL,
@@ -33,3 +36,4 @@ END;
 //
 
 DELIMITER ;
+```
