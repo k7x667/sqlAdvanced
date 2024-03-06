@@ -1,5 +1,4 @@
 # SQL Advanced Courses
 
-### TRIGGER
-
-#### [EXO 1](./TRIGGER/exo_one.sql)
+### [TRIGGER](./TRIGGER/readme.md)
+### [VIEW](./VIEW/readme.md)
