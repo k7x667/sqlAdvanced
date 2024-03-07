@@ -31,8 +31,6 @@ GRANT SELECT ON Clients TO remote_user;
 GRANT USAGE ON *.* TO remote_user@'192.168.1.100';
 ```
 
-2. Tester la connexion à la base de données en tant que `remote_user` depuis l'adresse IP autorisée et une adresse IP non autorisée.
-
 **Exercice 3 : Gestion des rôles**
 
 1. Créer le rôle `gestion_client` avec les privilèges de lecture et de mise à jour sur la table `Clients`.
@@ -62,8 +60,6 @@ GRANT DELETE ON Ventes TO vente_user;
 ```sql
 REVOKE DELETE ON Ventes FROM vente_user;
 ```
-
-3. Vérifier que `vente_user` ne peut plus supprimer des enregistrements dans la table `Ventes`.
 
 **Exercice 5 : Suppression**
 
